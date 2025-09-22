@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
 import '../styles/ProjectCard.css';
 
+
+import moodImg from '../assets/mood.png';
+import spamImg from '../assets/spam.jpg';
+
 const ProjectCard = ({ project }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   
   const projectImages = {
-    'Mood Movie Recommender': '/mood.png',
-    'Spam Email Classifier': '/spam.jpg',
-    
+    'Mood Movie Recommender': moodImg,
+    'Spam Email Classifier': spamImg,
   };
 
-  
   const getProjectImage = () => {
     return projectImages[project.title] || project.image;
   };

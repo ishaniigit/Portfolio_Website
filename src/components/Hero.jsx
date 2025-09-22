@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Hero.css';
+import heroImg from '../assets/Ishani_portfolioImg.jpg'; 
 
 const Hero = () => {
   const scrollToProjects = () => {
@@ -19,14 +20,15 @@ const Hero = () => {
         </p>
         <div className="hero-buttons">
           <button className="btn-primary" onClick={scrollToProjects}>View Projects</button>
-          <button className="btn-secondary">Download Resume</button>
+          <a href="/Portfolio_Website/Ishani_Chakravarty_Resume.pdf" className="btn-secondary" target="_blank" rel="noopener noreferrer">
+            Download Resume
+          </a>
         </div>
       </div>
 
-     
       <div className="hero-image">
         <img 
-          src="/Ishani_portfolioImg.jpg" 
+          src={heroImg} 
           alt="Ishani Chakravarty" 
         />
       </div>
