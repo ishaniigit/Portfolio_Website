@@ -9,7 +9,7 @@
 
 ## 🚀 About
 
-Welcome to my **personal portfolio website**! This project showcases my **projects, resume, and ways to get in touch**, all in a modern, interactive, and visually appealing layout inspired by platforms like Netflix and Spotify.  
+Welcome to my **personal portfolio website**! This project showcases my **projects, resume, and ways to get in touch**, all in a modern, interactive, and visually appealing layout inspired by platforms like Netflix .  
 
 Built with **React.js**, **CSS animations**, and a smooth, responsive design.  
 
@@ -41,9 +41,5 @@ Built with **React.js**, **CSS animations**, and a smooth, responsive design.
 - 💼 LinkedIn: [Ishani Chakravarty](https://www.linkedin.com/in/ishanichakravarty/)
 
 
-## ⚡ How to Run Locally
 
-1. **Clone the repository**
 
-```bash
-git clone https://github.com/ishaniigit/Portfolio_Website.git

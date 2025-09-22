@@ -4,14 +4,14 @@ import '../styles/ProjectCard.css';
 const ProjectCard = ({ project }) => {
   const [isHovered, setIsHovered] = useState(false);
 
-  // Map project types to their corresponding image paths in public folder
+  
   const projectImages = {
     'Mood Movie Recommender': '/mood.png',
     'Spam Email Classifier': '/spam.jpg',
-    // Add more mappings as needed
+    
   };
 
-  // Get the appropriate image for this project
+  
   const getProjectImage = () => {
     return projectImages[project.title] || project.image;
   };
