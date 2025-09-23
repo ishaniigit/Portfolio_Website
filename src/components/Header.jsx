@@ -5,10 +5,10 @@ const Header = () => {
   const [isVisible, setIsVisible] = useState(false);
   
   useEffect(() => {
-    // Trigger fade-in animation after component mounts
+    
     const timer = setTimeout(() => {
       setIsVisible(true);
-    }, 500);
+    }, 2000);
     
     return () => clearTimeout(timer);
   }, []);
