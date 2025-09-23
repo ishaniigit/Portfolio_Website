@@ -19,13 +19,17 @@ const Hero = () => {
           Specializing in React, Python, and machine learning applications.
         </p>
         <div className="hero-buttons">
-          <button className="btn-primary" onClick={scrollToProjects}>View Projects</button>
-          
+          <button className="btn-primary" onClick={scrollToProjects}>
+            View Projects
+          </button>
+
           {/* Resume download link */}
           <a 
-            href="/Ishani_Chakravarty_Resume.pdf" 
+            href={`${process.env.PUBLIC_URL}/Ishani_Chakravarty_Resume.pdf`} 
             download="Ishani_Chakravarty_Resume.pdf" 
             className="btn-secondary"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Download Resume
           </a>
