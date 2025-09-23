@@ -113,6 +113,23 @@
   background-color: #f40612;
   transform: translateY(-2px);
 }
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: #fff;
+}
+
+.footer-social a {
+  color: #fff;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #0f62fe; 
+}
+
 
 @media (max-width: 768px) {
   .contact-content {
