@@ -11,7 +11,7 @@ const ResumeSection = () => {
         details: "CGPA: 7.9, Relevant coursework: Data Structures, Algorithms, Python, Machine Learning"
       }
     ],
-    projects: [   // 👈 changed 'Projects' to lowercase to match usage
+    projects: [  
       {
         title: "Mood Movie Recommender",
         period: "2025",
@@ -32,7 +32,7 @@ const ResumeSection = () => {
       soft: ["Problem Solving", "Team Collaboration", "Communication", "Adaptability", "Time Management"]
     },
     certifications: [
-      "SoftWare Engineering Certificate: Accenture Nordics (Forage)",
+      "Software Engineering Certificate: Accenture Nordics (Forage)",
       "Data Analytics Certificate: Tata (Forage)",
       "Generative AI Certificate: Microsoft"
     ]

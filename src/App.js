@@ -8,9 +8,9 @@ import { projects } from './data';
 import './App.css';
 
 function App() {
-  // Add image paths to your projects based on the actual filenames
+  
   const projectsWithImages = projects.map(project => {
-    // Add image property based on project title
+    
     if (project.title === 'Mood Movie Recommender') {
       return { ...project, image: '/mood.png' };
     } else if (project.title === 'Spam Email Classifier') {
