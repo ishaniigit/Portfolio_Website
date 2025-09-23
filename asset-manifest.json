@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio_Website/static/css/main.6d02af9d.css",
-    "main.js": "/Portfolio_Website/static/js/main.8cba28e0.js",
+    "main.js": "/Portfolio_Website/static/js/main.c93b902c.js",
     "static/media/Ishani_portfolioImg.jpg": "/Portfolio_Website/static/media/Ishani_portfolioImg.23f28f31ec6f1d6b1863.jpg",
     "static/media/spam.jpg": "/Portfolio_Website/static/media/spam.2cebdaa8bf2bc10da5e4.jpg",
     "index.html": "/Portfolio_Website/index.html",
     "main.6d02af9d.css.map": "/Portfolio_Website/static/css/main.6d02af9d.css.map",
-    "main.8cba28e0.js.map": "/Portfolio_Website/static/js/main.8cba28e0.js.map"
+    "main.c93b902c.js.map": "/Portfolio_Website/static/js/main.c93b902c.js.map"
   },
   "entrypoints": [
     "static/css/main.6d02af9d.css",
-    "static/js/main.8cba28e0.js"
+    "static/js/main.c93b902c.js"
   ]
 }
